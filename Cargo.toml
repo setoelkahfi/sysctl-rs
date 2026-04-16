@@ -1,6 +1,6 @@
 [package]
 name = "sysctl"
-version = "0.7.1"
+version = "0.6.0"
 edition = "2024"
 authors = [
    "Johannes Lundberg <johalun0@gmail.com>",
@@ -17,6 +17,7 @@ include = ["src/**/*", "LICENSE-MIT", "README.md", "CHANGELOG.md"]
 
 [package.metadata.docs.rs]
 targets = [
+  "aarch64-apple-watchos",
   "i686-unknown-freebsd",
   "i686-unknown-linux-gnu",
   "x86_64-apple-darwin",
